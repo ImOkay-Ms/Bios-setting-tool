@@ -82,10 +82,8 @@ GUI에서 IP 주소, 사용자 ID, 비밀번호, OneCLI 경로 입력
 command_output.txt가 Serial Number 기반의 파일명으로 자동 변경됨   
 
 + 실행파일로 만들고 싶다면 pyinstaller --onefile /경로/python main.py 실행
-  
-## 6. 사용 예제
 
-## 7. 발전 가능성 및 향후 개선점
+## 5. 발전 가능성 및 향후 개선점
 FWDeviceOrder 설정 오류 해결   
 현재 FWDeviceOrder 설정 시 "General Failure" 오류가 발생하여 적용되지 않는 문제가 있음.   
 Lenovo 측에 문의 결과 Onecli 혹은 Server F/W version을 확인하라는 답변을 받음 해당 내용 참고하여 최신버전으로 업그레이드 한 후 테스트 진행 예정임.   
@@ -93,6 +91,6 @@ RAID 설정 자동화
 RAID 설정의 경우, 컨트롤러 종류 및 디스크 개수가 서버마다 달라 현재 자동화에서 제외됨.   
 향후,특정 모델별 RAID 설정을 지원하는 기능을 추가하면 더 범용적인 도구가 될 것으로 기대됨.
 
-## 8. 참고 자료
+## 6. 참고 자료
 https://pubs.lenovo.com/lxce-onecli/onecli_bk.pdf   
 https://pcsupport.lenovo.com/us/en/warranty-lookup#/   
